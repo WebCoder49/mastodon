@@ -1074,6 +1074,7 @@ cs:
     confirmations:
       awaiting_review_title: Vaše registrace se ověřuje
       clicking_this_link: kliknutím na tento odkaz
+      login_link: přihlásit se
       registration_complete: Vaše registrace na %{domain} je hotová!
       welcome_title: Vítám uživatele %{name}!
       wrong_email_hint: Pokud není e-mail správný, můžete si ho změnit v nastavení účtu.
@@ -1554,6 +1555,9 @@ cs:
     errors:
       limit_reached: Dosažen limit různých reakcí
       unrecognized_emoji: není známý smajlík
+  redirects:
+    prompt: Pokud tomuto odkazu důvěřujete, klikněte na něj a pokračujte.
+    title: Odcházíte z %{instance}.
   relationships:
     activity: Aktivita účtu
     confirm_follow_selected_followers: Jste si jisti, že chcete sledovat vybrané sledující?
@@ -1616,6 +1620,7 @@ cs:
       unknown_browser: Neznámý prohlížeč
       weibo: Weibo
     current_session: Aktuální relace
+    date: Datum
     description: "%{browser} na systému %{platform}"
     explanation: Tohle jsou webové prohlížeče aktuálně přihlášené na váš účet Mastodon.
     ip: IP adresa
@@ -1792,6 +1797,7 @@ cs:
     webauthn: Bezpečnostní klíče
   user_mailer:
     appeal_approved:
+      action: Možnosti Účtu
       explanation: Odvolání proti prohřešku vašeho účtu ze dne %{strike_date}, které jste podali %{appeal_date}, bylo schváleno. Váš účet je opět v pořádku.
       subject: Vaše odvolání ze dne %{date} bylo schváleno
       title: Odvolání schváleno
@@ -1800,6 +1806,8 @@ cs:
       subject: Vaše odvolání z %{date} bylo zamítnuto
       title: Odvolání zamítnuto
     backup_ready:
+      explanation: Požádali jste o úplnou zálohu vašeho účtu Mastodon.
+      extra: Nyní je připraven ke stažení!
       subject: Váš archiv je připraven ke stažení
       title: Stažení archivu
     suspicious_sign_in:
